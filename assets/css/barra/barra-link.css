@@ -1,0 +1,9 @@
+.barra__link{
+    cursor: pointer;
+    color: #ffff;
+}
+
+.barra__link :hover{
+    color: rgb(168, 137, 137);
+    transition: 1s;
+}

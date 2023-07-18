@@ -1,0 +1,15 @@
+@media screen and (min-width:0) {
+    .barra__boton{
+        width: 4rem;
+        list-style: none;
+        padding-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width:768px){
+    .barra__boton{
+        padding-right: 2rem;
+        list-style: none;
+        width: 3rem;
+    }    
+}

@@ -1,0 +1,19 @@
+
+@media screen and (min-width:0px){
+    .persona{
+        padding-left: 1%;
+        height: auto;            
+        background-color: grey;
+        color: rgb(253, 253, 253);
+    }
+}
+@media screen and (min-width:768px) {
+    .persona{
+        padding-left: 1%;
+        max-width: 30%;
+        height: auto;            
+        background-color: grey;
+        color: rgb(253, 253, 253);
+    }
+    
+}

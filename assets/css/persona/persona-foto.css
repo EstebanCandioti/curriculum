@@ -1,0 +1,17 @@
+@media screen and (min-width: 0px) {
+    #fotoPerfil{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #fotoPerfil{
+        display: inline;
+        position: relative;
+        max-width: 50%;
+        height: auto;
+        border-radius: 100%;
+        border: 2px solid white;
+        margin:10%;
+    }
+}

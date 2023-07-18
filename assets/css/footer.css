@@ -1,0 +1,12 @@
+.footer{
+    padding-top: 1.5rem;
+    color:#ffff;
+    background-color: rgb(124, 70, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copyright{
+    margin-bottom: 0.9rem;
+    margin-right: 0.5rem;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>portfolio</title>
+    <meta name="description" content="Roughly 155 characters" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/11b5f93308.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/divisores.css" />
+    <link rel="stylesheet" href="/assets/css/barra/barra-boton.css" />
+    <link rel="stylesheet" href="/assets/css/barra/barra-link.css" />
+    <link rel="stylesheet" href="/assets/css/barra/barra-links.css" />
+    <link rel="stylesheet" href="/assets/css/barra.css" />
+    <link rel="stylesheet" href="/assets/css/persona.css" />
+    <link rel="stylesheet" href="/assets/css/persona/persona-item.css" />
+    <link rel="stylesheet" href="/assets/css/persona/persona-lista.css" />
+    <link rel="stylesheet" href="/assets/css/persona/persona-foto.css" />
+    <link rel="stylesheet" href="/assets/css/body.css" />
+    <link rel="stylesheet" href="/assets/css/laboral.css" />
+    <link rel="stylesheet" href="/assets/css/laboral/laboral-trabajo.css" />
+    <link rel="stylesheet" href="/assets/css/footer.css" />
+    <link rel="stylesheet" href="/assets/css/laboral/laboral-botonera.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="/assets/logica.js"></script>
+  </head>
+  <body>
+    <navbar class="barra">
+      <ul class="barra__links">
+        <li class="barra__boton">
+          <a id="whatsapp" class="barra__link">
+            <i class="fa-brands fa-whatsapp fa-lg"></i>
+          </a>
+        </li>
+        <li class="barra__boton">
+          <a id="email" class="barra__link">
+            <i class="fa-regular fa-envelope fa-lg"></i>
+          </a>
+        </li>
+        <li class="barra__boton" class="barra__link">
+          <a id="instagram">
+            <i class="fa-brands fa-instagram fa-lg"></i>
+          </a>
+        </li>
+        <li class="barra__boton" class="barra__link">
+          <a id="linkedin">
+            <i class="fa-brands fa-linkedin fa-lg"></i>
+          </a>
+        </li>
+      </ul>
+    </navbar>
+    <div class="body">
+      <section class="persona">
+        <img
+          id="fotoPerfil"
+          src="/assets/yoyo.jpg"
+          alternative="Foto de Perfil"
+        />
+        <h2 class="persona__titulo">Informacion Personal</h2>
+        <ul>
+          <li id="direccion" class="persona__item"></li>
+          <li id="correo_electronico" class="persona__item"></li>
+          <li id="celular" class="persona__item"></li>
+        </ul>
+
+        <div class="divisorPersonal"></div>
+        <h2 class="persona__titulo">Sobre Mi</h2>
+        <p id="sobreMi"></p>
+
+        <div class="divisorPersonal"></div>
+        <h2 class="persona__titulo">Aptitudes</h2>
+        <ul id="aptitudes"></ul>
+
+        <div class="divisorPersonal"></div>
+        <h2 class="persona__titulo">Habilidades Informaticas</h2>
+        <ul id="habilidadesInformaticas"></ul>
+
+        <div class="divisorPersonal"></div>
+        <h2 class="persona__titulo">Cursos y Certificados</h2>
+        <ul id="certificados"></ul>
+      </section>
+      <section class="laboral">
+        <h1>Esteba Orfeo Candioti</h1>
+        <div class="divisorLaboral"></div>
+        <section>
+          <h3>Formacion</h3>
+          <div class="subtitulado"></div>
+          <h4>Educacion Secundaria - 2018</h4>
+          <p>Bachiller en informatica</p>
+          <div class="miniDivisor"></div>
+          <h4>Argentina Programa - 2022</h4>
+          <p>Desarrollador Web Full Stack Jr.</p>
+          <div class="miniDivisor"></div>
+          <h4>Argentina Programa 4.0, Pierson - 2023</h4>
+          <p>Ingles (b1)</p>
+          <div class="miniDivisor"></div>
+          <h4>Oracle One G4- 2023</h4>
+          <p>Desarrollador Front-End y React</p>
+          <div class="miniDivisor"></div>
+          <h4>Oracle Alumni One G4 - actualidad</h4>
+          <p>MySql, DataScience y Oracle Cloud Infraestructure</p>
+          <div class="divisorLaboral"></div>
+        </section>
+        <section>
+            <h3>Proyectos</h3>
+            <div class="subtitulado"></div>
+            <h4>Portfolio con ABM</h4>
+            <p>
+                Este portfolio tiene el front-end desarrollado con angular, un back-end desarrollado con SpringBoot 
+                y una base de datos hecha en MySql 
+            </p>
+            <div class="laboral__botonera">
+                <a href="https://github.com/EstebanCandioti/portfolio-FrontEnd" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    <small>Repositorio del front-end</small>
+                </a>
+                <a href="https://github.com/EstebanCandioti/portfolio-BackEnd">
+                    <i class="fa-brands fa-github"></i>
+                    <small>Repositorio del back-end</small>
+                </a>
+            </div>
+                <div class="miniDivisor"></div>
+                <h4>Encriptador de texto</h4>
+                <p>
+                    Este encriptador realizado para el curso Oracle One G4 tiene la funcion de encriptar y desencriptar texto.
+                    Esta hecho con HTML, CSS y JavaScript. Cuenta con diseño responsive
+                </p>
+                <a href="https://github.com/EstebanCandioti/encriptador-G4" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    <small>Repositorio del encriptador</small>
+                </a>
+                <div class="miniDivisor"></div>
+                <h4>Portfolio Oracle One</h4>
+                <p>
+                    Este portfolio realizado para el curso Oracle One G4 esta hecho con HTML, CSS y JavaScript.
+                    Cuenta con diseño responsive
+                </p>
+                <div class="laboral__botonera">
+                    <a href="https://github.com/EstebanCandioti/EstebanCandioti.github.io" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        <small>Repositorio del portfolio</small>
+                    </a>
+                    <a href="https://estebancandioti.github.io/">
+                        <small>Pagina web del portfolio</small>
+                    </a>
+                </div>
+                <div class="miniDivisor"></div>
+        </section>
+      </section>
+    </div>
+    <footer class="footer">
+      <i class="fa-regular fa-copyright" id="copyright"></i>
+      <p>Esteban Orfeo Candioti | 2023</p>
+    </footer>
+  </body>
+</html>
+ 

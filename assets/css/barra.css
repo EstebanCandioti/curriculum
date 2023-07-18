@@ -1,0 +1,7 @@
+.barra{
+    margin-bottom: 0;
+    background-color:#773d06;
+    color: #ffff;
+    display: flex;
+    justify-content: flex-end;
+}
