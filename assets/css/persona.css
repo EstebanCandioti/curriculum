@@ -3,8 +3,8 @@
     .persona{
         padding-left: 1%;
         height: auto;            
-        background-color: grey;
-        color: rgb(253, 253, 253);
+        background-color: #fff;
+        color: black;
     }
 }
 @media screen and (min-width:768px) {
