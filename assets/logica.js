@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         sobre_mi:"Estudiante de desarrollo desoftware con interes en aprender y ganar experiencia en el area IT. Enfocado y con gusto por el Front-End",
         aptitudes:["Adaptable", "Coperador", "Activo"],
         habilidadesInformaticas:["CSS","HTML","JavaScript","React","Angular","Java","SpringBoot","Sql"],
-        certificados:["Ingles - B1", "Programador Web Full Stack Jr.", "Front End G4"],
+        certificados:["Ingles - B2", "Programador Web Full Stack Jr.", "Front End G4"],
     }
 
     //----------------------------------------------------------ASIGNACION DE ETIQUETAS HTML A UNA VARIABLE-------------------------------------------------------------------
